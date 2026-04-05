@@ -1,0 +1,18 @@
+class Clientes:
+    def __init__(self, nome, idade, cpf):
+        self.nome = nome
+        self.idade = idade
+        self.cpf = cpf
+
+while True:
+    
+    nome = input("Digite o nome do cliente: "), 
+    idade = input("Digite a idade do cliente: "), 
+    cpf = input("Digite o cpf do cliente: ")
+    
+    
+    if ("deseja continuar? (s/n): ").lower() == 's':
+        print(cliente1.nome, cliente1.idade, cliente1.cpf)
+    else:
+        print("fechando o programa...")
+        break
